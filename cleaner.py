@@ -11,13 +11,16 @@ with open("lc.txt", "r") as file:
 def remove_elements_with_pattern(array, pattern):
     new_array = []
     for element in array:
-        if not re.search(pattern, element):
+        if pattern not in element:
             new_array.append(element)
+        else:
+            print("Removed: " + element)
     return new_array
 
 
 arr = remove_elements_with_pattern(arr, "/solution")
-
+print(len(arr))
+arr = list(set(arr))
 
 with open('lc_problems.txt', 'a') as f:
     # Iterate over each link in your final list
