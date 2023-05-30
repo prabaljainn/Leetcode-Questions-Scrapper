@@ -11,7 +11,6 @@ from bs4 import BeautifulSoup
 
 # Define the chromedriver service
 s = Service('chromedriver.exe')
-
 # Instantiate the webdriver
 driver = webdriver.Chrome(service=s)
 
