@@ -1,15 +1,19 @@
-Given a string s, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
+In English, we have a concept called root, which can be followed by some other word to form another longer word - let's call this word successor. For example, when the root "an" is followed by the successor word "other", we can form a new word "another".
+Given a dictionary consisting of many roots and a sentence consisting of words separated by spaces, replace all the successors in the sentence with the root forming it. If a successor can be replaced by more than one root, replace it with the root that has the shortest length.
+Return the sentence after the replacement.
   Example 1:
-Input: s = "abab"
-Output: true
-Explanation: It is the substring "ab" twice.
+Input: dictionary = ["cat","bat","rat"], sentence = "the cattle was rattled by the battery"
+Output: "the cat was rat by the bat"
 Example 2:
-Input: s = "aba"
-Output: false
-Example 3:
-Input: s = "abcabcabcabc"
-Output: true
-Explanation: It is the substring "abc" four times or the substring "abcabc" twice.
+Input: dictionary = ["a","b","c"], sentence = "aadsfasf absbs bbab cadsfafs"
+Output: "a a b c"
   Constraints:
-1 <= s.length <= 104
-s consists of lowercase English letters.
+1 <= dictionary.length <= 1000
+1 <= dictionary[i].length <= 100
+dictionary[i] consists of only lower-case letters.
+1 <= sentence.length <= 106
+sentence consists of only lower-case letters and spaces.
+The number of words in sentence is in the range [1, 1000]
+The length of each word in sentence is in the range [1, 1000]
+Every two consecutive words in sentence will be separated by exactly one space.
+sentence does not have leading or trailing spaces.

@@ -1,5 +1,21 @@
-1499. Max Value of Equation
-1888. Minimum Number of Flips to Make the Binary String Alternating
-459. Repeated Substring Pattern
-729. My Calendar I
-657. Robot Return to Origin
+1509. Minimum Difference Between Largest and Smallest Value in Three Moves
+1419. Minimum Number of Frogs Croaking
+648. Replace Words
+1209. Remove All Adjacent Duplicates in String II
+2246. Longest Path With Different Adjacent Characters
+13. Roman to Integer
+2095. Delete the Middle Node of a Linked List
+2165. Smallest Value of the Rearranged Number
+217. Contains Duplicate
+1247. Minimum Swaps to Make Strings Equal
+1143. Longest Common Subsequence
+1591. Strange Printer II
+1833. Maximum Ice Cream Bars
+1367. Linked List in Binary Tree
+1894. Find the Student that Will Replace the Chalk
+4. Median of Two Sorted Arrays
+91. Decode Ways
+48. Rotate Image
+890. Find and Replace Pattern
+2073. Time Needed to Buy Tickets
+1010. Pairs of Songs With Total Durations Divisible by 60
