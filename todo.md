@@ -1,3 +1,4 @@
-# stps
+## first i ran lc.py
 
-for each and every link in lc_prb.txt do explore and store it somewhere
+==> second i ran lc.py
+==> third i ran problems_explore.py

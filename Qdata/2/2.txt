@@ -1,20 +1,31 @@
-You are given the string croakOfFrogs, which represents a combination of the string "croak" from different frogs, that is, multiple frogs can croak at the same time, so multiple "croak" are mixed.
-Return the minimum number of different frogs to finish all the croaks in the given string.
-A valid "croak" means a frog is printing five letters 'c', 'r', 'o', 'a', and 'k' sequentially. The frogs have to print all five letters to finish a croak. If the given string is not a combination of a valid "croak" return -1.
+You are given an integer array nums.
+In one move, you can choose one element of nums and change it to any value.
+Return the minimum difference between the largest and smallest value of nums after performing at most three moves.
   Example 1:
-Input: croakOfFrogs = "croakcroak"
-Output: 1 
-Explanation: One frog yelling "croak" twice.
+Input: nums = [5,3,2,4]
+Output: 0
+Explanation: We can make at most 3 moves.
+In the first move, change 2 to 3. nums becomes [5,3,3,4].
+In the second move, change 4 to 3. nums becomes [5,3,3,3].
+In the third move, change 5 to 3. nums becomes [3,3,3,3].
+After performing 3 moves, the difference between the minimum and maximum is 3 - 3 = 0.
 Example 2:
-Input: croakOfFrogs = "crcoakroak"
-Output: 2 
-Explanation: The minimum number of frogs is two. 
-The first frog could yell "crcoakroak".
-The second frog could yell later "crcoakroak".
+Input: nums = [1,5,0,10,14]
+Output: 1
+Explanation: We can make at most 3 moves.
+In the first move, change 5 to 0. nums becomes [1,0,0,10,14].
+In the second move, change 10 to 0. nums becomes [1,0,0,0,14].
+In the third move, change 14 to 1. nums becomes [1,0,0,0,1].
+After performing 3 moves, the difference between the minimum and maximum is 1 - 0 = 1.
+It can be shown that there is no way to make the difference 0 in 3 moves.
 Example 3:
-Input: croakOfFrogs = "croakcrook"
-Output: -1
-Explanation: The given string is an invalid combination of "croak" from different frogs.
+Input: nums = [3,100,20]
+Output: 0
+Explanation: We can make at most 3 moves.
+In the first move, change 100 to 7. nums becomes [4,7,20].
+In the second move, change 20 to 7. nums becomes [4,7,7].
+In the third move, change 4 to 3. nums becomes [7,7,7].
+After performing 3 moves, the difference between the minimum and maximum is 7 - 7 = 0.
   Constraints:
-1 <= croakOfFrogs.length <= 105
-croakOfFrogs is either 'c', 'r', 'o', 'a', or 'k'.
+1 <= nums.length <= 105
+-109 <= nums[i] <= 109
