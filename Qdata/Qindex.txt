@@ -1,5 +1,1 @@
-https://leetcode.com/problems/max-value-of-equation/
-https://leetcode.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/
-https://leetcode.com/problems/repeated-substring-pattern/
-https://leetcode.com/problems/my-calendar-i/
-https://leetcode.com/problems/robot-return-to-origin/
+https://leetcode.com/problems/minimum-number-of-frogs-croaking/

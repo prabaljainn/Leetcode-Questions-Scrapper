@@ -1,5 +1,3 @@
-1499. Max Value of Equation
-1888. Minimum Number of Flips to Make the Binary String Alternating
-459. Repeated Substring Pattern
-729. My Calendar I
-657. Robot Return to Origin
+2095. Delete the Middle Node of a Linked List
+1509. Minimum Difference Between Largest and Smallest Value in Three Moves
+1419. Minimum Number of Frogs Croaking
