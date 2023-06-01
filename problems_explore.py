@@ -14,8 +14,9 @@ s = Service('chromedriver.exe')
 
 # Instantiate the webdriver
 driver = webdriver.Chrome(service=s)
+# check heading_class is present or not first by document.querySelector("");, leetcode page's heading and body class changes day by day
 
-heading_class = ".mr-2.text-xl"
+heading_class = ".mr-2.text-label-1"
 body_class = ".px-5.pt-4"
 index = 1
 QDATA_FOLDER = "Qdata"
