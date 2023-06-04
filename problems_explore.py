@@ -39,7 +39,7 @@ def add_text_to_index_file(text):
 
 def add_link_to_Qindex_file(text):
     index_file_path = os.path.join(QDATA_FOLDER, "Qindex.txt")
-    with open(index_file_path, "w", encoding="utf-8", errors="ignore") as Qindex_file:
+    with open(index_file_path, "a", encoding="utf-8") as Qindex_file:
         Qindex_file.write(text)
 
 
